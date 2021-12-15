@@ -28,7 +28,7 @@ public class SavingsAccount {
 		return savingBalance;
 	}
 
-	// Setting annual interest rate
+	// Setting annual interest Rate
 	public static void modifyInterestRate(double annualInterestRate1) {
 		annualInterestRate = annualInterestRate1;
 	}
