@@ -21,7 +21,7 @@ public class AccountHolder {
 
 		SavingsAccount.modifyInterestRate(0.05);
 		saver1.calculateMonthlyInterest(); // Calculate saving balance for saver 1
-		System.out.println("Saver1 Balance Is: " + serer1.getSavingBalance());
+		System.out.println("Saver1 Balance Is: " + saver1.getSavingBalance());
 		saver2.calculateMonthlyInterest(); // Calculate saving balance for saver 2
 		System.out.println("Saver2 Balance Is: " + saver2.getSavingBalance());
 
