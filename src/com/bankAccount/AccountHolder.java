@@ -4,26 +4,26 @@ public class AccountHolder {
 	public static void main(String[] args) {
 
 		// Creating two object of class Savings Account
-		SavingsAccount server1 = new SavingsAccount(2000);
-		SavingsAccount server2 = new SavingsAccount(3000);
+		SavingsAccount sever1 = new SavingsAccount(2000);
+		SavingsAccount sever2 = new SavingsAccount(3000);
 
-		// Calculating Saving balance of server1 and server2 on 0.04 interest
+		// Calculating Saving balance of sever1 and sever2 on 0.04 interest
 
 		SavingsAccount.setAnnualInterestRate(0.04);
-		server1.calculateMonthlyInterest(); // Calculate saving balance for server 1
-		System.out.println("Server1 Balance Is: " + server1.getSavingBalance());
-		server2.calculateMonthlyInterest(); // Calculate saving balance for server 2
-		System.out.println("Server2 Balance Is: " + server2.getSavingBalance());
+		sever1.calculateMonthlyInterest(); // Calculate saving balance for sever 1
+		System.out.println("Sever1 Balance Is: " + sever1.getSavingBalance());
+		sever2.calculateMonthlyInterest(); // Calculate saving balance for sever 2
+		System.out.println("Sever2 Balance Is: " + sever2.getSavingBalance());
 
 		System.out.println("-------------------------------------------");
 
-		// Calculating Saving balance of server1 and server2 on 0.05 interest
+		// Calculating Saving balance of sever1 and sever2 on 0.05 interest
 
 		SavingsAccount.modifyInterestRate(0.05);
-		server1.calculateMonthlyInterest(); // Calculate saving balance for server 1
-		System.out.println("Server1 Balance Is: " + server1.getSavingBalance());
-		server2.calculateMonthlyInterest(); // Calculate saving balance for server 2
-		System.out.println("Server2 Balance Is: " + server2.getSavingBalance());
+		sever1.calculateMonthlyInterest(); // Calculate saving balance for sever 1
+		System.out.println("Sever1 Balance Is: " + serer1.getSavingBalance());
+		sever2.calculateMonthlyInterest(); // Calculate saving balance for sever 2
+		System.out.println("Sever2 Balance Is: " + sever2.getSavingBalance());
 
 	}
 }
